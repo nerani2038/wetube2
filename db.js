@@ -4,7 +4,7 @@ export const video = [
     title: "number1",
     description: "somthing1",
     views: 25,
-    videoFile: "rabbit320.webm",
+    videoFile: "http://media.w3.org/2010/05/bunny/movie.ogv",
     creator: {
       id: 123456,
       name: "nera",
@@ -16,7 +16,7 @@ export const video = [
     title: "number2",
     description: "somthing2",
     views: 25,
-    videoFile: "rabbit320.webm",
+    videoFile: "http://media.w3.org/2010/05/bunny/movie.ogv",
     creator: {
       id: 123456,
       name: "nera",
@@ -28,7 +28,7 @@ export const video = [
     title: "number3",
     description: "somthing3",
     views: 25,
-    videoFile: "rabbit320.webm",
+    videoFile: "http://media.w3.org/2010/05/bunny/movie.ogv",
     creator: {
       id: 123456,
       name: "nera",
@@ -40,7 +40,7 @@ export const video = [
     title: "number4",
     description: "somthing4",
     views: 25,
-    videoFile: "rabbit320.webm",
+    videoFile: "http://media.w3.org/2010/05/bunny/movie.ogv",
     creator: {
       id: 123456,
       name: "nera",

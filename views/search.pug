@@ -1,5 +1,10 @@
 extends layouts/main.pug
+include mixins/videoBlock.pug
 
 block content  
     .search__header
         h3 Searching for #{searchingBy}
+    .serch__video
+        .videos
+        each item in video
+            +videoBlock(item)
