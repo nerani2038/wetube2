@@ -12,8 +12,8 @@ export const postJoin = (req, res) => {
     res.status(400);
     res.render("join", { pageTitle: "Join" });
   } else {
-    //todo:register user
-    //todo:log user in``
+    // todo:register user
+    // todo:log user in``
     res.redirect(routes.home);
   }
 };
@@ -25,7 +25,7 @@ export const postLogin = (req, res) => {
 };
 
 export const logout = (req, res) => {
-  //to do:process log out
+  // to do:process log out
   res.redirect(routes.home);
 };
 
