@@ -35,6 +35,7 @@ app.use(
     store: new CokieStore({ mongooseConnection: mongoose.connection })
   })
 );
+
 app.use(passport.initialize());
 app.use(passport.session());
 
